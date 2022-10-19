@@ -1,0 +1,31 @@
+:root {
+  --primary: blue;
+  --secondary: red;
+  --dark: black;
+  --light: #eee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--light);
+
+}
+
+.App {
+  display: flex;
+  min-height: 100vh;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.calculator{
+  width: 100;
+  max-width: 400px;
+
+}
